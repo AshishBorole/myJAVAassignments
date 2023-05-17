@@ -1,0 +1,12 @@
+Type command- “sudo apt install”
+Type command- “sudo apt-get update”
+If you are using an old key, Type command- “sudo apt-get install docker.io” 
+then “Y” else If installing for the first time- “ sudo apt install docker.io “
+Type command- git clone https://github.com/RaviTambade/iacsdrepomarch23.git
+Type command- “ Ls >> cd iascdrepomarch23 >> Ls >> sudo docker build -t iacsd . “
+ this is to build an image of the repo. Follow the steps carefully, you can type any name instead of iacsd and not there is a space and a dot after the name.
+type command- “sudo docker images ” to check if your image is
+created successfully.
+Type command- “ sudo docker run -d -p 8081:8081 iacsd “ you can give any 4 digit port number and at the end type the image name.
+ To check your image is running type command- “ sudo docker ps 
+Copy your IP address and “ :8081 “ type the image port no. Press enter.
